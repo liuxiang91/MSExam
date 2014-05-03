@@ -1,0 +1,25 @@
+
+
+param:  OPER: cost:=
+"breed"       5
+"buy"         200
+"shear"       1
+"slaughter"   2
+"pelt"        2
+"milk"        1;
+
+param:  PROD: price   u  :=
+"lamb"        0.24    40      
+"mutton"      0.16    70      
+"milk"        2.4     100
+"pelt"        4.5     1
+"wool"        1       10;
+
+
+
+param x_0_a_m=50;
+param x_0_a_f=250;
+param w_lamb = 993;
+param w_pelt = 29;
+param h = 30;
+param g = 0.9;

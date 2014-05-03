@@ -1,0 +1,5 @@
+reset;
+option solver cplex;
+model main.mod;
+data main.dat;
+solve;
