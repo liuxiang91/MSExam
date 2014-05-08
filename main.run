@@ -3,3 +3,7 @@ option solver cplex;
 model main.mod;
 data main.dat;
 solve;
+csvdisplay y > "./y.csv";
+csvdisplay x > "./x.csv";
+csvdisplay w > "./w.csv";
+csvdisplay y_slau > "./y_slau.csv";
